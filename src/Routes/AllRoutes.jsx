@@ -1,7 +1,7 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from '../Pages/Home'
-import UserDetails from '../Pages/UserDetails'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "../Pages/Home";
+import UserDetails from "../Pages/UserDetails";
 
 function AllRoutes() {
   return (
@@ -9,7 +9,7 @@ function AllRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/userDetails" element={<UserDetails />} />
     </Routes>
-  )
+  );
 }
 
-export default AllRoutes
+export default AllRoutes;
